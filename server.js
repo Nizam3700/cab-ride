@@ -15,7 +15,9 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://cab-rider-frontend.vercel.app' 
+  'https://cab-rider-frontend.vercel.app',
+  'https://cab-rider.netlify.app/',
+  'https://cab-ride-five.vercel.app' 
 ];
 
 // Configure CORS
@@ -37,7 +39,6 @@ app.use(cors({
 }));
 
 
-app.options('*', cors());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
