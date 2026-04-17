@@ -17,7 +17,8 @@ const allowedOrigins = [
   'http://localhost:5173',
   'https://cab-rider-frontend.vercel.app',
   'https://cab-rider.netlify.app/',
-  'https://cab-ride-five.vercel.app' 
+  'https://cab-ride-five.vercel.app',
+  'https://cab-ride.onrender.com' 
 ];
 
 // Configure CORS
