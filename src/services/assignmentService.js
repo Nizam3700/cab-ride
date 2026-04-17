@@ -1,6 +1,6 @@
 const Driver = require('../models/Driver');
 const Ride = require('../models/Ride');
-const DistanceService = require('./DistanceService');
+const DistanceService = require('./distanceService');
 
 class AssignmentService {
   static async assignNearestDriver(rideId, pickupX, pickupY) {

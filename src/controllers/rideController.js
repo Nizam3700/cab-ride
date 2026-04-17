@@ -1,6 +1,6 @@
 const Ride = require('../models/Ride');
 const Driver = require('../models/Driver');
-const AssignmentService = require('../services/AssignmentService');
+const AssignmentService = require('../services/assignmentService');
 
 class RideController {
   static async requestRide(req, res) {
