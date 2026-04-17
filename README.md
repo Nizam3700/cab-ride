@@ -23,6 +23,7 @@ A modern ride-hailing application frontend that connects users with nearby drive
 - **Axios** - API requests
 - **React Router DOM** - Navigation and routing
 - **Vite** - Build tool and development server
+- **Aiven Cloud Mysql** - Database
 
 
 ## 🚀 Getting Started
